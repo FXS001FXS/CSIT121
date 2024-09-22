@@ -1,0 +1,35 @@
+p {
+
+    background-color: white
+    blue;
+    
+    }
+body {
+
+    color: black;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif
+}
+h1 {
+
+    font-weight: bold;
+    color: red
+}
+a:link, a:visited {
+    color: purple
+}
+.highlight {
+
+    font-weight: bold;
+    background-color: 
+    yellow;
+    
+    }
+#alert {
+
+        background-color: 
+        red;
+        color: 
+        white
+        
+        }
