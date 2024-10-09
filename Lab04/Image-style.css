@@ -1,0 +1,39 @@
+body {
+    color: black;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: red;
+}
+
+p {
+    font-style: italic;
+    background-color: white; /* Fixed background color */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+}
+
+a:link, a:visited {
+    color: purple;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+#alert {
+    background-color: red;
+    color: white;
+}
