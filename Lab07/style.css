@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(58, 58, 58, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.tier-box {
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.S-tier { background-color: #4caf50; }
+.A-tier { background-color: #ffeb3b; }
+.B-tier { background-color: #2196f3; }
+.C-tier { background-color: #ff9800; }
+.D-tier { background-color: #f44336; }
+
+tr.S-tier { background-color: #dcedc8; }
+tr.A-tier { background-color: #fff9c4; }
+tr.B-tier { background-color: #bbdefb; }
+tr.C-tier { background-color: #ffe0b2; }
+tr.D-tier { background-color: #ffcdd2; }
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
